@@ -1,0 +1,30 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "crypto": "^1.0.1",
+    "crypto-js": "^4.1.1",
+    "elliptic": "^6.5.4",
+    "perf_hooks": "^0.0.1",
+    "react": "17.0.2",
+    "react-native": "0.65.1",
+    "react-native-fs": "^2.18.0",
+    "react-native-sha256": "^1.4.7",
+    "react-native-user-avatar": "^1.0.7",
+    "sha256": "^0.2.0"
+  },
+  "engines": {
+    "node": "12.13.0",
+    "npm": "6.12.0"
+  }
+}
