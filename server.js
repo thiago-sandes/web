@@ -20,7 +20,7 @@ app.use(express.static(path.join(__dirname, 'build')))
 app.get('/api', (req, res) => {
   let blockchain = new Blockchain();
   let nTransactions = 200;
-  let difficulty = 3;
+  let difficulty = 4;
 
   for (let x = 0; x < nTransactions; x++) {
     let transaction = new Transaction(address, 'public key goes here', 10);
