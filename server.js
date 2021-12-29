@@ -19,7 +19,7 @@ app.use(express.static(path.join(__dirname, 'build')))
 //all your api code goes here
 app.get('/api', (req, res) => {
   let blockchain = new Blockchain();
-  let nTransactions = 200;
+  let nTransactions = 100;
   let difficulty = 2;
 
   for (let x = 0; x < nTransactions; x++) {
